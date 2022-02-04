@@ -1,7 +1,7 @@
-# codesandbox-nuxt
+# USDC on Flow
 
 > Nuxt starter for CodeSandBox (used for https://template.nuxtjs.org)
-
+> Get started reading [Circle documentation](https://www.circle.com/en/developers) and [Flow docs](docs.onflow.org).
 ## Build Setup
 
 ```bash
