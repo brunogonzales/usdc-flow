@@ -61,7 +61,7 @@
 
     <section>
       <p>
-        After creating a transfer we can check it's status at any given moment.:
+        After creating a transfer we can check it's status at any given moment:
       </p>
       <button @click="checkTransferStatus">Check transfer status</button>
       <pre><code>{{transferStatus}}</code></pre>
@@ -80,6 +80,7 @@
 </template>
 
 <script>
+// If you are planning on using this for production store this secret somewhere safe.
 const CIRCLE_SECRET =
   "QVBJX0tFWTowMjI2YjJlODExMDlhNGQwMjE5ZGRhNjRjNTY3MDRhODozZjJlNDVjYzIzZTc0MTA2NjU1NzRkZjg2YTkxYTVkNw==";
 export default {
