@@ -1,0 +1,21 @@
+{
+  "name": "usdc",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "5.13.6",
+    "@onflow/fcl": "0.0.78",
+    "nuxt": "^2.15.0",
+    "uuid": "8.3.2"
+  },
+  "keywords": []
+}
