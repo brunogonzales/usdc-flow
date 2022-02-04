@@ -4,7 +4,7 @@ export default function ({ app }, inject) {
     .config()
     .put("accessNode.api", "https://access-testnet.onflow.org")
     .put("discovery.wallet", "https://fcl-discovery.onflow.org/testnet/authn")
-    .put("app.detail.title", "FCL example");
-  // .put("0xFlowToken", "0x7e60df042a9c0868");
+    .put("app.detail.title", "FCL example")
+    .put("0xFiatToken", "0xa983fecbed621163");
   inject("fcl", fcl);
 }

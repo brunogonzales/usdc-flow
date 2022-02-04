@@ -2,6 +2,13 @@
   <div class="container">
     <h2>USDC</h2>
     <section>
+      <p>
+        What is USDC? USDC (USD Coin) is the world’s leading digital US dollar
+        stablecoin, fully collateralized 1-for-1 with USD. This means that for
+        every 1 USDC token in circulation there is USD $1 held in collateral.
+      </p>
+    </section>
+    <section>
       <p>Create a new wallet clicking the button below.</p>
       <pre><code>{{wallet}}</code></pre>
       <button :aria-busy="creatingWallet" @click="createWallet">
@@ -58,6 +65,16 @@
       </p>
       <button @click="checkTransferStatus">Check transfer status</button>
       <pre><code>{{transferStatus}}</code></pre>
+    </section>
+
+    <section>
+      <h3>Links</h3>
+      <p>
+        See the
+        <a href="https://github.com/brunogonzales/usdc-flow"
+          >source code at GitHub</a
+        >.
+      </p>
     </section>
   </div>
 </template>
